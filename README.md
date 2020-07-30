@@ -11,3 +11,14 @@ The code is built with following libraries:
 
 ## The training and testing scripts are coming soon!
 
+```
+@misc{lin2019contextgated,
+    title={Context-Gated Convolution},
+    author={Xudong Lin and Lin Ma and Wei Liu and Shih-Fu Chang},
+    year={2019},
+    eprint={1910.05577},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
+
