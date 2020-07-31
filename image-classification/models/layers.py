@@ -1,3 +1,8 @@
+# Code for "Context-Gated Convolution"
+# ECCV 2020
+# Xudong Lin*, Lin Ma, Wei Liu, Shih-Fu Chang
+# {xudong.lin, shih.fu.chang}@columbia.edu, forest.linma@gmail.com, wl2223@columbia.edu
+
 import torch
 import torch.nn as nn
 from torch.nn.parameter import Parameter
