@@ -16,7 +16,7 @@ class Conv2d(nn.Conv2d):
         super(Conv2d, self).__init__(in_channels, out_channels, kernel_size, stride,
                  padding, dilation, groups, bias)
         # for convolutional layers with a kernel size of 1, just use traditional convolution
-        if kernel_size == 1 or True:
+        if kernel_size == 1:
             self.ind = True
         else:
             self.ind = False            
