@@ -31,7 +31,7 @@ class Conv2d(nn.Conv2d):
             self.num_lat = int((kernel_size * kernel_size) / 2 + 1)
             
             # the context encoding module
-            self.ce = nn.Linear(ws*ws, num_lat, False)            
+            self.ce = nn.Linear(ws*ws, self.num_lat, False)            
             self.ce_bn = nn.BatchNorm1d(in_channels)
             self.ci_bn2 = nn.BatchNorm1d(in_channels)
             
